@@ -21,7 +21,7 @@ a{
 
 }
 .imagen{
-    background-image: url(https://wallpapers.com/images/hd/desk-flat-lay-mac-4k-jflcqze1msq9j2xw.jpg);
+    background-image: url(desk-flat-lay-mac-4k-jflcqze1msq9j2xw.jpg);
     height: 100vh;
     width: 100vw;
     margin: 0px;
@@ -44,8 +44,7 @@ body{
 }
 .ES{
     text-align: center;
-    color: white;
-    padding-top: 150px;
+    color: black;
     font-size: 50px;
 
 }
@@ -70,4 +69,35 @@ background-color: black;
     transition-property: transform;
     width: 100%;
     z-index: 1;
+}
+.img1{
+    background-image: url(https://i05.appmifile.com/809_operator_es/11/10/2024/6af1be10892d4610230f4b04ed81a1ac.jpg?thumb=1&w=2560&q=85);
+    height: 500px;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    margin: auto;
+    margin: 0;
+    animation-name: cambiar-img;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes cambiar-img {
+    0%{
+        background-image: url(https://i05.appmifile.com/809_operator_es/11/10/2024/6af1be10892d4610230f4b04ed81a1ac.jpg?thumb=1&w=2560&q=85);   
+}
+100%{
+    border: 4px solid white;
+}
+}
+.imagen2{
+    opacity: .5;
+    
+}
+mark{
+    background-color: white;
 }
