@@ -21,12 +21,13 @@ a{
 
 }
 .imagen{
-    background-image: url(https://img.freepik.com/vector-gratis/fondo-tecnologia-digital-alambre-malla-red_1017-27428.jpg);
+    background-image: url(https://wallpapers.com/images/hd/desk-flat-lay-mac-4k-jflcqze1msq9j2xw.jpg);
     height: 100vh;
     width: 100vw;
     margin: 0px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 opacity: .5;
 }
 body{
@@ -40,4 +41,20 @@ body{
     margin: auto;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.ES{
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    font-size: 50px;
+
+}
+.ES2{
+    font-size: 25px;
+}
+.menos{
+width: 50%;
+margin: auto;
+display: block;
+background-color: black;
 }
