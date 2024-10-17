@@ -62,3 +62,12 @@ background-color: black;
   width: 600px;
   height: 300px;
 }
+.swiper-wrapper {
+    box-sizing: initial;
+    display: flex;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    width: 100%;
+    z-index: 1;
+}
