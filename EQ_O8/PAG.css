@@ -58,3 +58,7 @@ margin: auto;
 display: block;
 background-color: black;
 }
+.swiper {
+  width: 600px;
+  height: 300px;
+}
