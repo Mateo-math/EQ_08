@@ -154,7 +154,7 @@ color: white;
             opacity: 1;
         }
         .error{
-            margin-bottom: 630px;
+            margin-bottom: 810px;
         }
         table{
             color: white;
@@ -180,3 +180,6 @@ color: white;
         .ri {
             right: 10px;
         }
+.acercar{
+    margin-top: -365px;
+}
