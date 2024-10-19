@@ -154,3 +154,10 @@ color: white;
         .error{
             margin-bottom: 630px;
         }
+        table{
+            color: white;
+            border-collapse: separate;
+            border-spacing: 10px;
+            text-align: center;
+        }
+
