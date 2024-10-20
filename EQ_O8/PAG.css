@@ -208,14 +208,14 @@ p{text-align: center;}
 
 .square{
     background-color: white;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: auto;
     border-radius: 15px;
     position: relative;
     left: 160px;
         animation: backInDown; 
         animation-duration: 8s; 
-        animation-iteration-count: infinite;
+        animation-iteration-count: 1;
       }
 .espacio2{
     margin: -500px;
