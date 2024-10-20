@@ -79,3 +79,15 @@ width: 20%;
 .MINI{
     width: 50%;
 }
+table{
+    color: black;
+    border-collapse: separate;
+    border-spacing: 10px;
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    width: 100%;
+}
+footer{
+    margin-top: 50px;
+}
