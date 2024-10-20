@@ -153,14 +153,17 @@ color: white;
             background-image: url(stock.jpeg);
             opacity: 1;
         }
-        .error{
-            margin-bottom: 810px;
+        .espacio{
+            margin-bottom: 685px;
         }
         table{
-            color: white;
-            border-collapse: separate;
-            border-spacing: 10px;
-            text-align: center;
+                color: white;
+                border-collapse: separate;
+                border-spacing: 10px;
+                text-align: center;
+                background-color: rgb(28, 28, 28);
+                margin: auto;
+                width: 100%;
         }
  .left, .ri {
             position: absolute;
@@ -214,4 +217,16 @@ p{text-align: center;}
         animation-duration: 5s; 
         animation-iteration-count: infinite;
       }
+.espacio2{
+    margin: -500px;
+}
+.LINEA{
+    text-align: center;
 
+}
+.esp3{
+    margin-top: 500px;
+}
+.tiki{
+    text-align: center;
+}
