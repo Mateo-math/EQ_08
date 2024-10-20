@@ -183,3 +183,35 @@ color: white;
 .acercar{
     margin-top: -365px;
 }
+.about__main {
+    padding-top: 80px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    position: relative;
+    top: 200px;
+}
+.about__paragraph {
+    line-height: 1.7;
+    text-align: center;
+}
+p{text-align: center;}
+.about__title{ text-align: center;}
+
+
+
+.square{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    position: relative;
+    left: 160px;
+        animation: backInDown; 
+        animation-duration: 5s; 
+        animation-iteration-count: infinite;
+      }
+
