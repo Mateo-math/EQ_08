@@ -214,7 +214,7 @@ p{text-align: center;}
     position: relative;
     left: 160px;
         animation: backInDown; 
-        animation-duration: 5s; 
+        animation-duration: 15s; 
         animation-iteration-count: infinite;
       }
 .espacio2{
