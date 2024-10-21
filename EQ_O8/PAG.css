@@ -239,3 +239,39 @@ width: 80px;
         animation-duration: 16s;
     
 }
+.img2{
+    background-image: url(https://i02.appmifile.com/94_operator_mx/18/06/2024/1f78f57ef19b8a1fa83e089266ce55d2.jpg?thumb=1&w=2560&q=85);
+    height: 500px;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    margin: auto;
+    margin: 0;
+    animation-name: cambiar-img;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    position:relative;
+    right: 200px;
+    
+}
+.img3{
+    background-image: url(https://i02.appmifile.com/mi-com-product/fly-birds/redmi-note-13-pro-plus-5g/pc/38c91037333e6412aebe0954985af359.jpg?f=webp);
+    height: 500px;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    margin: auto;
+    margin: 0;
+    animation-name: cambiar-img;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    position:relative;
+    right: 200px;
+    
+}
