@@ -231,6 +231,11 @@ p{text-align: center;}
     text-align: center;
 }
 .about__icon{
-
+width: 80px;
+    height: 80px;
+    position: relative;
+    left: 80px;
+    animation: backInDown; 
+        animation-duration: 16s;
     
 }
