@@ -276,7 +276,6 @@ width: 80px;
     
 }
 video{
-    margin-left: 500px;
     object-fit: cover;
     background-size: contain;
     margin-top: 20px;
