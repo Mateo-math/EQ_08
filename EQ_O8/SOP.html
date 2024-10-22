@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> rugrats</title>
+	<style type="text/css">
+		body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(36, 36, 36);
+}
+.img1{
+	position: absolute;
+	padding:230px 300px;
+
+}
+.table1{
+	position: relative;
+	top: 160px;
+    left: 760px;
+    border: 2px solid gold;
+    width: 320px;
+    height: 500px;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+.a{
+	color:whitesmoke;
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+
+}
+.b{
+	color: whitesmoke;
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+
+}
+.c{
+	color: whitesmoke;
+	font-size: 17px; 
+}
+.d{
+	color: darkgrey;
+    text-decoration: line-through;
+     font-size: 15px; 
+}
+.e{
+list-style-image: url(img/cub.png);
+
+}
+.f{
+	color: whitesmoke;
+	font-family: Helvetica, sans-serif;
+	font-size: 11px;
+}
+.g{
+	 list-style-image: url(img/pal.png);
+}
+.h{
+	color: whitesmoke;
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+}
+.i{
+	color: whitesmoke;
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+}
+.j{
+	color: whitesmoke;
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+}
+.m{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.k{
+    display: none;
+}
+
+.l{
+	font-family: Helvetica, sans-serif;
+	height: 20px;
+	width: 40px;
+	font-size: 12px;
+    padding: 8px 13px;
+    border: 2px solid gold;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.l:hover {
+    background-color: #ddd;
+}
+
+.k:checked + .l{
+    background-color: #333;
+    color: white;
+    border-color: gold;
+}
+.n{
+	color: whitesmoke;
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+}
+.ñ{
+	background-color: gold;
+}
+.t{
+	border-radius: 8px;
+	cursor: pointer;
+	width: 60px;
+	height: 30px;
+}
+.r{
+	border-radius: 8px;
+	cursor: pointer;
+	padding: 5px 5px;
+	background-color: ghostwhite;
+}
+.r:hover{
+	background-color:rgb(36, 36, 36);
+	border: solid gold;
+	color: whitesmoke;
+	height: 30px;
+	width:  140px;
+	transition: background-color 0.4s ease;
+}
+    </style>
+	
+
+
+
+
+
+
+	</style>
+</head>
+<body>
+
+		<img src="img/m8.png" class="img1">
+
+<table class="table1">
+	<tr>
+		<td>
+			<h2 class="a">Poco M6</h2>
+			<p class="b"> Xiaomi</p>
+			<p class="c">$2,699.00-<span class="d">$2,999.00</span></p>
+		</td>
+    </tr>
+    <tr>
+		<td>
+			<ul class="e">
+				<li class="f">Hasta 12 meses sin intereces</li>
+				<li class="f">Garantia por 3 años</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<ul class="g">
+				<li class="h">Devoliciones sin complicaciones</li>
+				<li class="h">Envios sin costo,IVA ya incluido</li>
+				<li class="h">Disfruta 3 meses de YouTube premium totalmente gratis</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<p class="i">Color-Personalisado</p>
+				<form>
+					<input type="color" class="t">
+				</form>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<p class="j">Capacidad</p>
+		<div class="m">
+        <input type="radio" name="boton" id="boton1" class="k">
+        <label for="boton1" class="l"><strong>64GB<br>6RAM</strong></label>
+
+        <input type="radio" name="boton" id="boton2" class="k">
+        <label for="boton2" class="l"><strong>128GB<br>8RAM</strong></label>
+        </div>
+		</td>
+	</tr>
+	<tr>
+		<td><p class="n">Cantidad</p>
+			<form method="post" action="/send/" >
+                  <input type="range" value="1" min="1" max="10"
+                   onInput="this.nextElementSibling.value = this.value">
+                   <output class="ñ">1</output>
+            </form>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<center>
+				<br>
+			<form>
+				<button type="submid" class="r">COMPRAR AHORA</button>
+			</form>
+			</center>
+		</td>
+	</tr>
+</table>
+
+
+
+</body>
+</html>
