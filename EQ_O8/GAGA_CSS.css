@@ -34,3 +34,25 @@ input{
 body{
     background-color: rgb(36, 36, 36 );
 }
+nav{
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    background-color: transparent;
+    border-bottom: 4px solid white;
+    display: flex;
+    padding-top: 5px;
+}
+ul,li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+}
