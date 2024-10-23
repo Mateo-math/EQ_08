@@ -305,3 +305,6 @@ background-size: cover;
 height: 250px;
 object-fit: cover;
 }
+.o{
+    opacity: 1;
+}
