@@ -1,0 +1,28 @@
+textarea{
+	min-height: 50px;
+	height: 100px;
+	resize: none;
+	border-radius: 3%;
+}
+textarea:hover{
+	border-color: orange;
+}
+.N{
+	height: 10px;
+	resize: none;
+	border-radius: 3%;
+}
+.N:hover{
+	border-color: orange;
+}
+button{
+	color: white;
+	background-color: black;
+	border-radius: 5%;
+}
+body{
+    background-color: rgb(36, 36, 36 );
+}
+div{
+	color: white;
+}
