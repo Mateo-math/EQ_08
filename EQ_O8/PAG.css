@@ -57,19 +57,8 @@ margin: auto;
 display: block;
 background-color: black;
 }
-.swiper {
-  width: 600px;
-  height: 300px;
-}
-.swiper-wrapper {
-    box-sizing: initial;
-    display: flex;
-    height: 100%;
-    position: relative;
-    transition-property: transform;
-    width: 100%;
-    z-index: 1;
-}
+
+
 .img1{
     background-image: url(https://i05.appmifile.com/809_operator_es/11/10/2024/6af1be10892d4610230f4b04ed81a1ac.jpg?thumb=1&w=2560&q=85);
     height: 500px;
@@ -283,4 +272,10 @@ video{
 footer{
     margin-top: 20px;
 
+}.alejar{
+    margin-top: 700px;
+}
+.swiper{
+    width: 100%;
+    height: 100%;
 }
