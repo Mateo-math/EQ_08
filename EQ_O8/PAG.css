@@ -292,7 +292,15 @@ footer{
 }
 .titulo{
     text-align: center;
-    margin-right: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color: white;
+   border-radius: 15px;
+   width: 400px;
+   margin: auto;
+   position: relative;
+   top: 100px;
+
+   
 }
 .item{
     background-color: rgb(56, 56, 56);
