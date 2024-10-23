@@ -74,7 +74,7 @@ background-color: black;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     position:relative;
-    right: 200px;
+    right: 5px;
     
 }
 @keyframes cambiar-img {
@@ -243,7 +243,7 @@ width: 80px;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     position:relative;
-    right: 200px;
+    right: 5px;
     
 }
 .img3{
@@ -261,7 +261,7 @@ width: 80px;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     position:relative;
-    right: 200px;
+    right: 5px;
     
 }
 video{
