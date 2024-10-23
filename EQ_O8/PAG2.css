@@ -1,128 +1,96 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INICIAR SESION</title>
-    <link rel="stylesheet" href="PAG2.css">
-</head>
-<body>
-    <header>
-<nav>
-    <ul>
-        <li><a href="INDEX_08.html">INICIO</a></li>
-        <li><a href="#">SERVICIOS</a></li>
-        <li><a href="PAG3.html">CELULARES</a></li>
-        <li><a href="#">CONTACTO</a></li>
-    </ul>
-</nav>
-    <h1>INICIAR SESION</h1>
-    <h3>Autores: Mateo, Erik, Alexander, Evin , Pedro</h3>
-</header>
-<form>
-    <fieldset>
-        <legend>DATOS DE IDENTIFICACION</legend>
-    <label for="text">INGRESE SU NOMBRE COMPLETO
-<input type="text" id="text" required placeholder="NOMBRE COMPLETO">
-<div></div>
-    </label>
-    <label for="email">INGRESE SU CORREO ELECTONICO
-        <input type="email" id="email" placeholder="INGRESE SU EMAIL" required>
-    </label>
-    <div></div>
-    <label for="pass">INGRESE UNA CONTRASEÑA
-        <input type="password" placeholder="CONTRASEÑA" id="pass" required>
-    </label>
-    <DIV></DIV>
-</fieldset>
-<fieldset>
-    <legend>DATOS DE ESTADISTICA</legend>
-    <label>PARA QUE LO DESEA UTILIZAR</label><BR><BR>
-        <DIV class="center">
-    <label for="radio1">ESCUELA
-        <input class="CE" type="radio" value="escuela" id="radio1" name="valores"><br>
-    </label>
-    <label for="radio2">USO PERSONAL
-        <input class="CE" type="radio"  value="personal" id="radio2" name="valores">
-    </label>
-    <label for="radio3">AMBAS
-        <input class="CE" type="radio"  value="personal" id="radio3" name="valores">
-    </label>
-<div></div>
-</DIV>
-</fieldset>
-<fieldset>
-    <legend>Verificacion de Edad</legend>
-<label for="fecha">INGRESE SU FECHA DE NACIMIENTO
-    <input type="date" id="fecha" name="nacimiento" required>
-<div></div>
-<label for="num">INGRESE SU EDAD<br>
-    <input class="min" type="number" placeholder="edad" min="0" max="102" required id="num">
-</label>
-    <div></div>
-</fieldset>
-<div></div>
-    <label for="range">Que le parece nuestro formulario
-        <input type="range" id="range" name="rango" min="0" max="10" id="range">
-    </label>
-    <div></div>
-    <label for="resetear">DESEA REINCIAR  EL FORMULARIO<br>
-        <input class="resetear" type="reset">
-    </label>
-    <div></div>
-    <label for="dato1">ACEPTA LOS TERMINOS Y CONDICIONES DE LA PAGINA WEB
-        <input class="C" type="checkbox" required id="dato1">
-    </label><BR>
-    <button type="submit">ENVIAR</button>
-</label>
-</form>
-<footer>
-    <table>
-     <thead>
-         <tr>
-             <th>Patrocinadores</th>
-             <th>Soporte</th>
-             <th>Acerca de Nosotros</th>
-             <th>Sigue mi</th>
-         </tr>
-     </thead>
-     <tbody>
-         <tr>
-         <td>Apple</td>
-         <td>
-             Para mayor informacion mandar mensaje al siguiente mail:
-         </td>
-         <td>Grupo de estudiantes de preparatoria cuyo proyecto es el resultado de esta pagina</td>
-         <td>Youtube</td>
-         </tr>
-         <tr>
-             <td>Xiaomi</td>
-             <td>NUCM080614HDGXRTA6@CBTIS130.EDU.MX</td>
-             <td></td>
-             <td>Reddit</td>
-         </tr>
-         <tr>
-             <td>
-                 Nokia
-             </td>
-             <td>socp081231hdglrda5@cbtis130.edu.mx</td>
-         </tr>
-         <tr>
-             <td>Samsung</td>
-             <td>CARE081015HDGSGVA7@cbtis130.edu.mx</td>
-         </tr>
-         <tr>
-             <td></td>
-             <td>zape081005hdgmrra6@cbtis130.edu.mx</td>
-         </tr>
-         <tr>
-             <td></td>
-             <td>gaga080821hdgynla2@cbtis130.edu.mx</td>
-         </tr>
-         <tr>
-            <td class="LINEA" colspan="4">Copyright © 2010 - 2024 MARCA. Todos los derechos reservados </td>
-         </tr>
-     </tbody>
+nav{
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    background-color: transparent;
+    border-bottom: 4px solid white;
+    display: flex;
+    padding-top: 5px;
+}
+ul,li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+}
+body{
+    background-color: rgb(37, 37, 37);
+    text-align: center;
+    color: white;
+}
+form{
+    width: 700px;
+    border: 2px solid white;
+    margin: auto;
+    padding: 20px ;
+}
+input{
+    border: 4px solid white;
+width: 80%;
+border-radius: 5px;
+padding: 5px;
+color: black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 16px;
+text-align: center;
+margin-top: 5px;
+margin-bottom: 10px;
+}
+label{
+    color: white;
+}
+input:focus{
+    border: 2px solid gold;
+}
+.resetear{
+    width: 30%;
+}
+.center{
+    margin: auto;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.C{
+    margin-left: 350px;
+}
+.CE{
+    margin-left: 8px;
+}
+.min{
+width: 20%;
+}
+.min2{
+    width: 100px; 
+    height: 40px; 
+    border: 1px solid #ccc; 
+}
+.GOLD{
+    border: 4px solid gold;
+    color: white;
+}
+.MINI{
+    width: 50%;
+}
+table{
+    color: black;
+    border-collapse: separate;
+    border-spacing: 10px;
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    width: 100%;
+}
+footer{
+    margin-top: 50px;
+}
     </table>
   </footer>
 </body>
