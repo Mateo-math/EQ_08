@@ -5,17 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto</title>
     <link rel="stylesheet" href="PAG.css">
-    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
 
-<script>
-            document.addEventListener('DOMContentLoaded', function() {
-              new Glide('.glide', {type:'carousel',perView: 1,  autoplay: 3000}).mount();});
-          </script>
 </head>
 <body>
 <nav>
@@ -28,21 +26,53 @@
         <li><a href="#"></a></li>
     </ul>
     </nav>  
+   <div class="swiper">
    
-    <div class="imagen">
-        
-     <div class="glide">
-         <div class="glide__track" data-glide-el="track">
-         <ul class="glide__slides"><>
-          <li class="glide__slide"><div class="img3"></li>
-           <li class="glide__slide"><div class="img1"></div></li>
-           <li class="glide__slide"><div class="img2"</li>
-         </ul>
-       </div>
-         <div class="glide__arrows" data-glide-el="controls">
-         <button class="left" data-glide-dir="<">prev</button>
-         <button class="ri" data-glide-dir=">">next</button>
-        </div>
+    <div class="swiper-wrapper">
+    
+      <div class="swiper-slide"><div class="img1"></div></div>
+      <div class="swiper-slide"><div class="img2"></div></div>
+      <div class="swiper-slide"><div class="img3"></div></div>
+      ...
+    </div>
+ 
+    <div class="swiper-pagination"></div>
+
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+
+    <div class="swiper-scrollbar"></div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+
+  direction: 'horizontal',
+  loop: true,
+
+
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+  autoplay: {
+          delay: 10000,
+          pauseOnMouseEnter: true,
+          disableOnInteraction: false,
+        },
+
+})
+  </script>
+    <div class="alejar"></div>
        <div class="espacio2"></div>
         <h1 class="ES"><mark>PRODUCTOS ESTRELLA</mark> </h1>
     <div class="imagen imagen2">
