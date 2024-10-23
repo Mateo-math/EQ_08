@@ -284,3 +284,24 @@ footer{
     width: 100%;
     height: 100%;
 }
+.titulo{
+    text-align: center;
+    margin-right: 5px;
+}
+.item{
+    background-color: rgb(56, 56, 56);
+    color: white;
+    justify-content: center;
+    align-items:  center;
+    height: 300px;
+    text-align: center;
+}
+.owl-container{
+    width: 700px;
+    margin: 0 auto;
+}
+.a{
+background-size: cover;
+height: 250px;
+object-fit: cover;
+}
