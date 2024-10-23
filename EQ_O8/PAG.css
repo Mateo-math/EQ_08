@@ -43,11 +43,16 @@ body{
     background-repeat: no-repeat;
 }
 .ES{
-    text-align: center;
+     text-align: center;
     color: black;
     font-size: 50px;
-    border-radius:15px;
-
+  border-radius: 15px;
+  background-color: white;
+  width: 700px;
+  margin: auto;
+  position: relative;
+  bottom: 60px;
+  
 }
 .ES2{
     font-size: 25px;
