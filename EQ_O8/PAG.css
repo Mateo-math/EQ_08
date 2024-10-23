@@ -308,3 +308,9 @@ object-fit: cover;
 .o{
     opacity: 1;
 }
+span{
+transform: scale(2);
+}
+.owl-prev , .owl-next{
+    transform: scale(2);
+}
